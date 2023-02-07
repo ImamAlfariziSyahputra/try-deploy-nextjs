@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
@@ -24,14 +24,14 @@ export default function Home() {
               gap: "1rem",
             }}
           >
-            Home Page -{" "}
+            About Page -{" "}
             <Link
-              href='/about'
+              href='/'
               style={{
                 textDecorationLine: "underline",
               }}
             >
-              Go About
+              Go home
             </Link>
           </p>
           <div>
